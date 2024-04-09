@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "socket-client"
+version = "0.1.0"
+description = ""
+authors = ["pastordev <pastordev@jarvis-toolkit.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.6.4"
+poetry-plugin-dotenv = "^0.8.3"
+pydantic-settings = "^2.2.1"
+rsa = "^4.9"
+ipython = "^8.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
