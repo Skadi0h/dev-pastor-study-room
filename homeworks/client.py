@@ -22,8 +22,9 @@ def listen_to_messages_from_server(client: socket.socket) -> None:  # socket, no
 
 
 def send_message_to_server(client: socket.socket) -> None:
+    option = input("Enter '1' to send message or exit to close: ")  # Don`t repeat question every message
     while 1:
-        option = input("Enter '1' to send message or exit to close: ")  # Don`t repeat question every message
+
 
         if option == "1":
             message = input("Enter message: ").encode()
